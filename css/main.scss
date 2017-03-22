@@ -11,22 +11,3 @@
 .bg-pale-pink {
   background-color: #faded5;
 }
-
-
-.cf {
-  clear: both;
-}
-
-.cf-4th {
-  &:nth-child(4n) {
-    margin-right: 0;
-    clear: both;
-  }
-}
-
-.p-fix {
-  &:nth-child(3n) {
-    padding-right: 0;
-    margin-right: 0;
-  }
-}
